@@ -1,0 +1,9 @@
+# Rcmdr menus for the slc package
+
+
+#   type       menu/item      operation/parent          label                 command/menu                activation    install?
+menu           slcMenu        topMenu                   ""                    ""                          ""            "" 
+item           slcMenu        command                   "SLC Estimates"       Rcmdr.slcestimates          ""            "packageAvailable('SLC')"
+item           slcMenu        command                   "Help about SLC"      Rcmdr.help.SLC              ""            "packageAvailable('SLC')"
+item           slcMenu        command                   "Help about RcmdrPlugin.SLC"     Rcmdr.help.RcmdrPlugin.SLC      ""                      "packageAvailable('SLC')"
+item           topMenu        cascade                   "SLC"                 slcMenu                     ""             "packageAvailable('SLC')"
