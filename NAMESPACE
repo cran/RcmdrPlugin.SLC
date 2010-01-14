@@ -1,12 +1,4 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
+export(Rcmdr.slcestimates,Rcmdr.help.RcmdrPlugin.SLC,Rcmdr.help.SLC)
+import(Rcmdr)
+importFrom(tcltk,tkbutton)
 
-# Export all names
-exportPattern(".")
-
-# Import all packages listed as Imports or Depends
-import(
-  Rcmdr,
-  tcltk,
-  SLC
-)

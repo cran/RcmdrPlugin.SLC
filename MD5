@@ -1,6 +1,6 @@
-a51e11a472cff497077751bb11d2b794 *DESCRIPTION
-fba5742fba8ff7d731dd28198b5c1058 *NAMESPACE
-282438a7d99f1ba24e1020289fdc5902 *R/RcmdrPlugin.SLC.R
+821c5c429090a5151a664b27164a32b2 *DESCRIPTION
+550eee0e8cbc065688208214ec8a1d5c *NAMESPACE
+1a9e22f7fab3cbba2123319dbd7ba0ad *R/RcmdrPlugin.SLC.R
 e0c089af045f6cccdd2fca9d45391319 *inst/etc/menus.txt
 dca858010ec3ac26e3001efcf423be6a *man/RcmdrPlugin.SLC-internal.Rd
 b92b3f1ed5919ee84cde13241d5d35ca *man/RcmdrPlugin.SLC-package.Rd
